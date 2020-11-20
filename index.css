@@ -227,10 +227,60 @@
 }
 
 .button .button_bluee p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 158%;
   font-weight: 500;
 }
 
+#about {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  align-items: center;
+  width: 1200px;
+  height: 850px;
+  margin: 0 auto;
+}
+
+.wrapper__about__img {
+  width: 522px;
+  height: 506px;
+}
+
+.wrapper__text {
+  height: 506;
+  width: 700px;
+}
+
+.wrapper__text .text__about {
+  width: 119px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 158%;
+  letter-spacing: 0.02em;
+  color: #1a2028;
+  opacity: 0.46;
+}
+
+.wrapper__text .tex__intro {
+  width: 563px;
+  height: 132px;
+  font-size: 55px;
+  line-height: 120.5%;
+  letter-spacing: 0.02em;
+  color: #1a2028;
+  margin-top: 10px;
+}
+
+.wrapper__text .text__intro__bar {
+  width: 684px;
+  height: 128px;
+  font-size: 20px;
+  line-height: 158%;
+  letter-spacing: 0.02em;
+  color: #1a2028;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
