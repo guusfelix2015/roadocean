@@ -113,3 +113,87 @@
   letter-spacing: 0.02em;
   border-radius: 3px;
 }
+
+#card-pratrocinate {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  width: 1200px;
+  height: 70px;
+  gap: 175px;
+}
+
+/*== SERVICES ==*/
+
+#services {
+  margin-top: 200px;
+  width: 1200px;
+  height: 300px;
+}
+
+.services__box {
+  margin-left: 150px;
+}
+
+.services__box .text__services {
+  width: 102px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 158%;
+  letter-spacing: 0.02em;
+  color: #1a2028;
+  opacity: 0.46;
+  margin-bottom: 12px;
+}
+
+.services__box .tittle__services {
+  height: 132px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 120.5%;
+  letter-spacing: 0.02em;
+  color: #1a2028;
+  margin: 0;
+}
+
+.services__box .text__intro {
+  height: 64px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 158%;
+  letter-spacing: 0.02em;
+  color: #1a2028;
+  margin-top: 52px;
+  text-align: justify;
+}
+
+#cards {
+  display: flex;
+  width: 850px;
+  height: 220px;
+  gap: 30px;
+  margin-top: 60px;
+  margin-left: 170px;
+}
+
+.card {
+  border: 1px solid black;
+  position: relative;
+  width: 231px;
+  height: 219px;
+  
+}
+
+.card img {
+  width: 50px;
+  left: 31px;
+  top: 42px;
+
+  background: #000000;
+  position: absolute;
+}
