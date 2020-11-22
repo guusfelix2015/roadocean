@@ -27,14 +27,11 @@ img {
 
 .colored_button {
   background-color: var(--purple);
-
   height: 40px;
   padding: 0 25px;
-
   border: none;
   border-radius: 3px;
   outline: none;
-
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
@@ -52,20 +49,16 @@ img {
 
 .white_button {
   background-color: white;
-
   height: 40px;
   padding: 0 25px;
-
   border: 1px solid var(--text);
   border-radius: 3px;
   outline: none;
-
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
   color: var(--text);
   margin-right: 10px;
-
   transition: all 0.2s ease;
   cursor: pointer;
 }
@@ -79,16 +72,13 @@ img {
   font-size: 62.5%; /* 1 rem = 10px */
   --text: #1a2028;
   --text-secondary: #ebebeb;
-
   --gray: #fbfbfb;
-
   --purple: #6477b6;
   --purple-secondary: #f2f5ff;
 }
 
 .container {
   max-width: 1650px;
-
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -102,14 +92,10 @@ button {
 /* Styles */
 header {
   width: 100%;
-
   background: white;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.03);
-
   padding: 25px 0px;
-
   position: fixed;
-
   z-index: 1;
 }
 
@@ -145,7 +131,6 @@ nav ul li a:hover {
 .home_text h1 {
   font-size: 6.0625rem;
   font-weight: 400;
-
   max-width: 650px;
   line-height: 78.33px;
 }
@@ -189,7 +174,6 @@ nav ul li a:hover {
   font-size: 55px;
   max-width: 700px;
   color: var(--text);
-
   font-weight: normal;
   line-height: 120.5%;
 }
@@ -197,20 +181,16 @@ nav ul li a:hover {
 #services p {
   font-size: 1.5rem;
   max-width: 650px;
-
   margin: 30px 0;
 }
 
 #services .card {
   background: var(--purple-secondary);
   margin: 10px 20px 20px 0px;
-
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
   padding: 30px 20px;
-
   width: 15.25rem;
   min-height: 13.6875rem;
 }
