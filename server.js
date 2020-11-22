@@ -2,8 +2,9 @@ const express = require("express");
 const nunjucks = require("nunjucks");
 
 const server = express();
+const sponsors = require("./data");
 
-server.set("view engine", "html");
+server.set("view engine", "njk");
 
 nunjucks.configure("views", {
   express: server,
@@ -14,7 +15,7 @@ nunjucks.configure("views", {
 server.use(express.static("public"));
 
 server.get("/", (req, res) => {
-  return res.render("index");
+  return res.render("index", { items: sponsors });
 });
 
 server.listen(5000, () => {

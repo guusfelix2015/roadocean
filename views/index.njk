@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../index.css"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet"/>
+
+    <title>ocean_</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="flex">
+          <div class="logo">
+            <img src="../assets/logo.svg" alt="Logo da empresa ocean escrito ocean_"/>
+          </div>
+
+          <nav>
+            <ul>
+              <li>
+                <a href="#about">Sobre</a>
+              </li>
+              <li>
+                <a href="#services">Serviços</a>
+              </li>
+              <li>
+                <a href="#contact">Contato</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home">
+      <div class="container">
+        <div class="flex">
+          <div class="home_text">
+            <h1>Organização de planilhas na palma da sua mão</h1>
+
+            <p>O App desenvolvido para aqueles que tentam ser organizados envolvendo planilhas. Agora é mais fácil.</p>
+
+            <div class="flex">
+              <button class="colored_button">Fale conosco</button>
+              <button class="white_button">Saiba mais</button>
+            </div>
+          </div>
+
+          <div class="home_image">
+            <img src="../assets/home.svg" alt="Imagem de 2 planilhas uma atrás da outra"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="sponsors">
+      <div class="container">
+        <div class="flex">
+          {%for item in items %}
+            <div>
+              <img src="../assets/{{item.id}}.svg" alt="Logo da nike"/>
+            </div>
+          {%endfor %}
+        </div>
+      </div>
+    </div>
+
+    <section id="services">
+      <div class="container">
+        <h3>SERVIÇOS</h3>
+        <h1>Inovação, criatividade, tecnologia e perfomance</h1>
+        <p>Aqui nós mantemos livremente o seu pacote, de acordo com a sua necessidade e com a sua verba. Afinal, nossos produtos atendem demandas de todos os portes.</p>
+
+        <div class="flex">
+          <div class="card">
+            <img src="../assets/graph.svg" alt="Icon de um gráfico crescente"/>
+            <p>
+              Mídia de
+              <br/>
+              perfomance
+            </p>
+          </div>
+          <div class="card">
+            <img src="../assets/graph.svg" alt="Icon de um gráfico crescente"/>
+            <p>
+              Mídia de
+              <br/>
+              perfomance
+            </p>
+          </div>
+          <div class="card">
+            <img src="../assets/graph.svg" alt="Icon de um gráfico crescente"/>
+            <p>
+              Mídia de
+              <br/>
+              perfomance
+            </p>
+          </div>
+          <div class="card">
+            <img src="../assets/graph.svg" alt="Icon de um gráfico crescente"/>
+            <p>
+              Mídia de
+              <br/>
+              perfomance
+            </p>
+          </div>
+        </div>
+        <button class="colored_button">Solicite um orçamento</button>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="flex">
+          <div class="about_image">
+            <img src="../assets/team.svg" alt="Icons de equipe com cada funcionário lado a lado"/>
+          </div>
+
+          <div class="about_text">
+            <h3>SOBRE NÓS</h3>
+            <h1>Mais de 150 clientes confiam na gente</h1>
+            <p>
+              Nós da Ocean, temos o propósito de acelerar o crescimento das empresas através de marketing digital, e fazemos isso com uma abordagem focada no desenvolvimento da jornada de marketing e vendas dos negócios.
+            </p>
+
+            <p>Saiba mais
+              <span>→</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
