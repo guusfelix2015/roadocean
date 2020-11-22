@@ -37,4 +37,5 @@ npm install nunjucks (Template Engine)
 
 # 🛠Organização 
 
-[![Image from Gyazo](https://i.gyazo.com/0730500dd3e9b2d2d0c37784f15af17f.png)](https://gyazo.com/0730500dd3e9b2d2d0c37784f15af17f)
+- Luciano Gomes - Dev Frontend Pleno - (64) 9 9227- 3262
+- Caio Augusto - Dev Frontend Jr - (62) 8181-8608
