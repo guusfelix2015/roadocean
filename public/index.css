@@ -37,7 +37,6 @@ img {
   font-weight: 300;
   color: white;
   margin-right: 10px;
-
   transition: all 0.2s ease;
   cursor: pointer;
 }
@@ -112,7 +111,6 @@ nav ul {
 nav ul li a {
   margin-left: 30px;
   font-size: 1.5rem;
-
   transition: all 0.3s ease;
 }
 
@@ -124,7 +122,6 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-
   height: calc(100vh - 51px - 37px);
 }
 
@@ -230,7 +227,6 @@ nav ul li a:hover {
   font-size: 55px;
   max-width: 700px;
   color: var(--text);
-
   font-weight: normal;
   line-height: 120.5%;
 }
