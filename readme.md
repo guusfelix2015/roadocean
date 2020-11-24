@@ -14,28 +14,30 @@ HTML, CSS, JAVASCRIPT (Opcional)
 ```
 
 # 💻Iniciando o projeto
+
 Para inciar o projeto crie um package.json
+
 ```bash
 npm init -v (-V para que ele crie automaticamente sem fazer perguntas )
 ```
+
 # 💻 Pacotes utilizados
+
 - Nodemon
 - Nunjucks
 - Express
+
 ```bash
 npm install nodemon -D (-D dependencias de desenvolvimento)
 npm install express
 npm install nunjucks (Template Engine)
 ```
+
 # ✒️Layout
 
-[![Image from Gyazo](https://i.gyazo.com/bd00167b796774c849fc5f8fede8ffc8.png)](https://gyazo.com/bd00167b796774c849fc5f8fede8ffc8)
+[![Image from Gyazo](https://i.gyazo.com/f7e27dae0dd4bbd7132dad30dda8e81b.png)](https://gyazo.com/f7e27dae0dd4bbd7132dad30dda8e81b)
 
-[![Image from Gyazo](https://i.gyazo.com/e3f538fb80bbd0666e76fe68213e46c1.png)](https://gyazo.com/e3f538fb80bbd0666e76fe68213e46c1)
-
-[![Image from Gyazo](https://i.gyazo.com/c315d42b444a53738e08cda8cfad4ce5.png)](https://gyazo.com/c315d42b444a53738e08cda8cfad4ce5)
-
-# 🛠Organização 
+# 🛠Organização
 
 - Luciano Gomes - Dev Frontend Pleno - (64) 9 9227- 3262
 - Caio Augusto - Dev Frontend Jr - (62) 8181-8608
